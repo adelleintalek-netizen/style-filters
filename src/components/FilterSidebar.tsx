@@ -21,8 +21,8 @@ import { MultiColumnIconGrid } from "./filters/MultiColumnIconGrid";
 
 export const FilterSidebar = () => {
   return (
-    <aside className="w-[220px] flex-shrink-0 bg-background border-r border-filter-border h-screen overflow-y-auto amazon-scrollbar">
-      <div className="p-3">
+    <aside className="w-full max-w-[280px] bg-background border-r border-filter-border min-h-screen overflow-y-auto amazon-scrollbar">
+      <div className="p-4">
         {/* Active Filters (Inline Tags) */}
         <InlineTagsFilter
           title="Active Filters"
